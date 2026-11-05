@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   NO MORE PISSE &mdash; Solaria
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <a class="logo" href="#accueil">
+    ☀ NO MORE PISSE
+   </a>
+   <nav>
+    <a href="#univers">
+     UNIVERS
+    </a>
+    <a href="#personnages">
+     PERSONNAGES
+    </a>
+    <a href="#missions">
+     MISSIONS
+    </a>
+    <a href="#jouer">
+     MINI-JEU
+    </a>
+   </nav>
+  </header>
+  <div class="hero" id="accueil">
+   <div class="sun">
+   </div>
+   <div class="skyline">
+   </div>
+   <div class="hero-content">
+    <div class="eyebrow">
+     UN CONCEPT DE JEU VID&Eacute;O CR&Eacute;&Eacute; AVEC L'IA
+    </div>
+    <div class="mascot">
+     🦝🛹
+    </div>
+    <h1>
+     NO MORE
+     <br/>
+     PISSE
+    </h1>
+    <p>
+     Bienvenue &agrave; Solaria. Le bonheur est obligatoire. Le chaos ? C'est toi qui l'apportes.
+    </p>
+    <div class="actions">
+     <a class="btn" href="#jouer">
+      ▶ JOUER &Agrave; LA D&Eacute;MO
+     </a>
+     <a class="btn secondary" href="#univers">
+      D&Eacute;COUVRIR LE JEU &darr;
+     </a>
+    </div>
+   </div>
+  </div>
+  <main>
+   <section id="univers">
+    <div class="tag">
+     01 / L'UNIVERS
+    </div>
+    <h2>
+     LE BONHEUR EST
+     <span>
+      OBLIGATOIRE.
+     </span>
+    </h2>
+    <p class="lead">
+     Dans la cit&eacute; solaire de Solaria, les habitants bleus vivent sous le contr&ocirc;le de l'H&eacute;liocratie. Personne ne doit se mettre en col&egrave;re. Jusqu'&agrave; l'arriv&eacute;e d'un raton laveur incontr&ocirc;lable.
+    </p>
+    <div class="world">
+     <div class="world-art">
+      🏛️☀️
+     </div>
+     <div>
+      <h2>
+       Bienvenue &agrave;
+       <span>
+        Solaria
+       </span>
+      </h2>
+      <p>
+       Des temples dor&eacute;s, des fontaines sacr&eacute;es et des hymnes au Soleil &agrave; chaque lever du jour. Les habitants bioluminescents affichent un sourire permanent.
+      </p>
+      <p>
+       Sabote les rituels, d&eacute;tourne les v&eacute;hicules et transforme cette ville parfaite en un immense terrain de jeu.
+      </p>
+      <button class="btn" onclick="showInfo('L&rsquo;H&eacute;liocratie','Le Soleil est consid&eacute;r&eacute; comme une divinit&eacute;. Les habitants sont oblig&eacute;s de sourire, m&eacute;diter et respecter les rituels. La moindre contrari&eacute;t&eacute; est une h&eacute;r&eacute;sie.')">
+       EN SAVOIR PLUS
+      </button>
+     </div>
+    </div>
+   </section>
+   <section id="personnages">
+    <div class="tag">
+     02 / LES PERSONNAGES
+    </div>
+    <h2>
+     UNE VILLE.
+     <span>
+      DES ENNUIS.
+     </span>
+    </h2>
+    <p class="lead">
+     Fais connaissance avec les figures de Solaria.
+    </p>
+    <div class="grid">
+     <article class="card">
+      <div class="emoji">
+       🦝
+      </div>
+      <div class="tag">
+       PERSONNAGE JOUABLE
+      </div>
+      <h3>
+       Le Raton Laveur
+      </h3>
+      <p>
+       Un rebelle en hoverboard qui n'a qu'un seul objectif : perturber l'ordre &eacute;tabli.
+      </p>
+      <button class="btn secondary" onclick="showInfo('Le Raton Laveur','Rapide, impr&eacute;visible et &eacute;quip&eacute; de gadgets absurdes. Il d&eacute;clenche le chaos partout o&ugrave; il passe.')" style="margin-top:20px">
+       VOIR LA FICHE
+      </button>
+     </article>
+     <article class="card">
+      <div class="emoji">
+       🧘🏽&male;️
+      </div>
+      <div class="tag">
+       CITOYENS
+      </div>
+      <h3>
+       Les habitants bleus
+      </h3>
+      <p>
+       Bioluminescents, paisibles et soumis aux r&egrave;gles du Culte du Soleil&hellip; pour l'instant.
+      </p>
+      <button class="btn secondary" onclick="showInfo('Les habitants bleus','Leur peau bleue r&eacute;agit &agrave; la lumi&egrave;re solaire. Plus le chaos augmente, plus ils perdent leur calme et deviennent rouges de col&egrave;re.')" style="margin-top:20px">
+       VOIR LA FICHE
+      </button>
+     </article>
+     <article class="card">
+      <div class="emoji">
+       🤖
+      </div>
+      <div class="tag">
+       BOSS FINAL
+      </div>
+      <h3>
+       Le Grand Pr&ecirc;tre
+      </h3>
+      <p>
+       Chef supr&ecirc;me de l'H&eacute;liocratie. &Agrave; cinq soleils d'H&eacute;r&eacute;sie, il d&eacute;barque en mecha g&eacute;ant.
+      </p>
+      <button class="btn secondary" onclick="showInfo('Le Grand Pr&ecirc;tre','Le protecteur ultime de Solaria pilote un robot solaire g&eacute;ant lorsque l&rsquo;indice de recherche atteint cinq soleils.')" style="margin-top:20px">
+       VOIR LA FICHE
+      </button>
+     </article>
+    </div>
+   </section>
+   <section id="missions">
+    <div class="tag">
+     03 / OBJECTIFS
+    </div>
+    <h2>
+     CHOISIS TON
+     <span>
+      SABOTAGE.
+     </span>
+    </h2>
+    <p class="lead">
+     S&eacute;lectionne une mission : elle sera activ&eacute;e dans le mini-jeu.
+    </p>
+    <div class="grid">
+     <article class="card mission" data-mission="0">
+      <div class="mission-icon">
+       🎨
+      </div>
+      <div>
+       <h3>
+        Peinture rose
+       </h3>
+       <p>
+        Recouvre les monuments de peinture fluo.
+       </p>
+       <button class="btn" onclick="selectMission(0)">
+        CHOISIR
+       </button>
+      </div>
+     </article>
+     <article class="card mission" data-mission="1">
+      <div class="mission-icon">
+       🦆
+      </div>
+      <div>
+       <h3>
+        Canard sacr&eacute;
+       </h3>
+       <p>
+        Fais appara&icirc;tre un canard g&eacute;ant pour semer la panique.
+       </p>
+       <button class="btn" onclick="selectMission(1)">
+        CHOISIR
+       </button>
+      </div>
+     </article>
+     <article class="card mission" data-mission="2">
+      <div class="mission-icon">
+       📢
+      </div>
+      <div>
+       <h3>
+        Hymne interdit
+       </h3>
+       <p>
+        Perturbe le silence avec une grenade holographique.
+       </p>
+       <button class="btn" onclick="selectMission(2)">
+        CHOISIR
+       </button>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section id="jouer">
+    <div class="tag">
+     04 / D&Eacute;MO INTERACTIVE
+    </div>
+    <h2>
+     LE CHAOS COMMENCE
+     <span>
+      ICI.
+     </span>
+    </h2>
+    <p class="lead">
+     D&eacute;place ton raton laveur dans Solaria, approche-toi des citoyens et d&eacute;clenche des actions absurdes. Accumule du chaos pour faire monter l'H&eacute;r&eacute;sie.
+    </p>
+    <div class="game-wrap">
+     <div class="game-bar">
+      <div class="game-stats">
+       <span>
+        ☀ H&Eacute;R&Eacute;SIE :
+        <span id="stars">
+         &star;&star;&star;&star;&star;
+        </span>
+       </span>
+       <span>
+        💥 CHAOS :
+        <span id="score">
+         0
+        </span>
+       </span>
+      </div>
+      <div class="meter">
+       <div class="meter-fill" id="meter">
+       </div>
+      </div>
+     </div>
+     <div class="game-area">
+      <canvas aria-label="Mini-jeu interactif No More Pisse" height="520" id="game" width="1000">
+      </canvas>
+     </div>
+     <div class="game-controls">
+      <button class="btn" id="chaosBtn">
+       💥 SEMER LE CHAOS (ESPACE)
+      </button>
+      <button class="btn secondary" id="resetBtn">
+       &orarr; RECOMMENCER
+      </button>
+      <span class="status" id="status">
+       Mission : Peinture rose
+      </span>
+      <small>
+       D&eacute;placement : ZQSD / WASD / fl&egrave;ches &bull; Clic ou toucher : d&eacute;placement
+      </small>
+     </div>
+    </div>
+   </section>
+   <section>
+    <div class="tag">
+     05 / GADGETS
+    </div>
+    <h2>
+     L'ARSENAL DU
+     <span>
+      D&Eacute;SORDRE.
+     </span>
+    </h2>
+    <div class="grid">
+     <article class="card">
+      <div class="emoji">
+       🔫
+      </div>
+      <h3>
+       Pistolet rose fluo
+      </h3>
+      <p>
+       Transforme les statues sacr&eacute;es en &oelig;uvres de street art.
+      </p>
+     </article>
+     <article class="card">
+      <div class="emoji">
+       💬
+      </div>
+      <h3>
+       Grenade &agrave; gros mots
+      </h3>
+      <p>
+       Lib&egrave;re une explosion holographique de mots interdits.
+      </p>
+     </article>
+     <article class="card">
+      <div class="emoji">
+       🛹
+      </div>
+      <h3>
+       Hoverboard invers&eacute;
+      </h3>
+      <p>
+       Fonce &agrave; travers la cit&eacute; &agrave; une vitesse incontr&ocirc;lable.
+      </p>
+     </article>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <strong>
+    NO MORE PISSE
+   </strong>
+   &mdash; Concept fictif de jeu vid&eacute;o, pr&eacute;sentation interactive cr&eacute;&eacute;e avec l'IA. &copy; 2026
+  </footer>
+  <div class="modal" id="modal" onclick="if(event.target===this)closeModal()">
+   <div class="modal-box">
+    <button class="close" onclick="closeModal()">
+     ✕
+    </button>
+    <h3 id="modalTitle">
+    </h3>
+    <p id="modalText">
+    </p>
+    <button class="btn" onclick="closeModal()">
+     COMPRIS !
+    </button>
+   </div>
+  </div>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
